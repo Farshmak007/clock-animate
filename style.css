@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position:relative;
+    margin: 0 auto;
+    width: 736px;
+    height: 736px;
+    background:  url(clock2.jpg);
+    background-repeat: no-repeat;  
+    border: 2px solid red;
+}
+
+.timer {
+    width: 303px;
+    height: 298px;
+    margin: 70px;
+    background: linear-gradient(red, red);
+    background-size: 50px 50px;
+    color: #fff;
+    transform-origin:bottom  right ;
+    animation: rotate 6s linear infinite;
+    border: 2px solid red;
+}
+
+
+
+@keyframes rotate { 
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
